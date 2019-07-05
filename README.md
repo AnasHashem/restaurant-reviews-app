@@ -4,7 +4,7 @@
 - It's a restaurant reviews app
 
 ### Running the web page
-- To just view the web page, `follow this`
+- To just view the web page, https://anashashem.github.io/
 - To have full access to the application, clone the repo and experiment with it >>
 you can run it locally using the command `python3 -m http.server 8000`, then open visit `localhost:8000`.
 
