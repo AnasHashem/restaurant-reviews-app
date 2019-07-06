@@ -1,4 +1,4 @@
-let cacheName = 'cache-v1';
+let mainCache = 'cache-v1';
 let filesToCache = [
     './',
     './index.html',
@@ -23,7 +23,7 @@ let filesToCache = [
 
 self.addEventListener('install', function(event){
     event.waitUntil(
-        caches.open(cacheName)
+        caches.open(mainCache)
           .then(function(cache) {
             console.log('Opened cache');
             return cache.addAll(filesToCache);
